@@ -1,8 +1,8 @@
 {
-  "id": "nodebb-plugin-cookie-auto-login",
-  "name": "NodeBB Cookie Auto Login",
-  "description": "Logs in automatically",
-  "url": "https://github.com/livey0u/nodebb-plugin-cookie-auto-login",
+  "id": "nodebb-plugin-musicoin-forum",
+  "name": "NodeBB Musicoin Forum Plugin",
+  "description": "Auto Login to the Musicoin Forum",
+  "url": "https://github.com/musicoin/nodebb-plugin-musicoin-forum",
   "library": "./library.js",
   "hooks": [
     {
@@ -18,14 +18,7 @@
       "method": "overrideLoginController"
     }
   ],
-  "staticDirs": {
-    "static": "./static"
-  },
-  "less": [
-    "static/style.less"
-  ],
   "scripts": [
-    "public/src/musicoin-forum.js"
-  ],
-  "templates": "static/templates"
+    "lib/musicoin-forum.js"
+  ]
 }
